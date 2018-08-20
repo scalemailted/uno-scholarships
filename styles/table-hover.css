@@ -1,0 +1,5 @@
+.table-hover > tbody > tr:hover {
+  /*background-color: #000000 !important;*/
+  filter: brightness(85%);
+}
+

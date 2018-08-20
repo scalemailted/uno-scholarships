@@ -1,0 +1,32 @@
+body { font-family: sans-serif; }
+
+.scene {
+
+}
+
+.flipcard {
+  width: 100%;
+  height: 80%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.flipcard.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card__face {
+  position: absolute;
+  width: inherit;
+  backface-visibility: hidden;
+}
+
+.card__face--front {
+}
+
+.card__face--back {
+  transform: rotateY(180deg);
+}
+

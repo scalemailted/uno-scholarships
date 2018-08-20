@@ -1,0 +1,85 @@
+/* Backgrounds will cover all the section
+* --------------------------------------- */
+/*#section0,
+#section1,
+#section2,*/
+#section5{
+    background-size: cover;
+}
+
+/* Defining each sectino background and styles 
+* --------------------------------------- */
+/*
+#section0{
+    background-image: url(imgs/bg1.jpg);
+    padding: 30% 0 0 0;
+}
+#section2{
+    background-image: url(imgs/bg3.jpg);
+    padding: 6% 0 0 0;
+}*/
+#section5{
+    /*
+    background-image: url(../media/brick-tile.png) !important;
+    background-repeat: repeat;
+    background-size: 32px 32px;
+    */
+    background-color: #000000;
+
+}
+
+
+/*#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+    background: #fff !important;
+}*/
+
+
+#fp-nav ul li a span {
+    background: #777 !important;
+}
+
+#fp-nav {
+    /*right: 62px !important;*/
+    top: 20% !important;
+}
+
+
+#section3 h1{
+    color: #000;
+}
+
+
+/*Adding background for the slides
+* --------------------------------------- */
+/*
+#slide1{
+    background-image: url(imgs/bg2.jpg);
+    padding: 6% 0 0 0;
+}
+#slide2{
+    background-image: url(imgs/bg5.jpg);
+    padding: 6% 0 0 0;
+}*/
+
+.fp-controlArrow {
+    position: absolute;
+    z-index: 4;
+    top: 50%;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -38px;
+}
+.fp-controlArrow.fp-prev {
+    left: 5px;
+    width: 0;
+    border-width: 38.5px 34px 38.5px 0;
+    border-color: transparent rgba(51, 51, 51, 0.5) transparent transparent;
+}
+.fp-controlArrow.fp-next {
+    right: 5px;
+    border-width: 38.5px 0 38.5px 34px;
+    border-color: transparent transparent transparent rgba(51, 51, 51, 0.5);
+}

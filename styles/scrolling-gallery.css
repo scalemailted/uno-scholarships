@@ -1,0 +1,45 @@
+.game-slideshow {
+  /*height: 400px;*/
+  height: 229px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+}
+
+.game-slideshow > div {
+  /*height: 200px;*/
+  /*width: 2526px;*/
+  width: 3167px; /*width: 1900px;*/ /*width: 1897px;*/ /*width: 2120px;*/
+  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/collage.jpg);*/
+  /*background: url(../media/gamegallery-showcase-all-small.gif);*/
+  /*background: url(../media/GameGallery-showcase.gif);*/
+  background: url(../media/game-montage-4.gif);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  transform: translate3d(0, 0, 0);
+}
+/*
+.game-slideshow .mover-1 {
+  animation: moveSlideshow 12s linear infinite;
+}*/
+.game-slideshow .mover-2 {
+  opacity: 1;
+  transition: opacity 0.5s ease-out;
+  background-position: 0 0px;
+  animation: moveSlideshow 15s linear infinite;
+}
+.game-slideshow:hover .mover-2 {
+  opacity: 1;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-66.6666%);  
+  }
+}
+
+
